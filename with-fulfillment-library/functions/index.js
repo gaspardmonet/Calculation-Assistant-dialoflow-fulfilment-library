@@ -40,7 +40,7 @@ exports.webhook = functions.https.onRequest((request, response) => {
             case "Division":
                 if (params.number2 !== 0) {
                     agent.add(` The ${operation} of ${number1}
-                    and ${number2} is ${number1 / number2} `);
+                    with ${number2} is ${number1 / number2} `);
                 } else {
                     agent.add(`Sorry, this calculator can't perform calculation of divident with 0 `);
                 }
