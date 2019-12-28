@@ -46,7 +46,7 @@ exports.webhook = functions.https.onRequest((request, response) => {
                 }
                 break;
             default:
-                agent.add('Sorry we only can only perform ADDITION SUBTRACTION MULTIPLICATION AND DIVISION');
+                agent.add('Sorry we can only perform ADDITION SUBTRACTION MULTIPLICATION AND DIVISION');
         }
 
     }
